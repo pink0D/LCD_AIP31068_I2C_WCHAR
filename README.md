@@ -10,7 +10,7 @@ This is Arduino library for multilingual character printing on LCD modules with 
 Currently, only russian character support is included into the library
 
 - Connect your LCD Module to Arduino Board via I2C
-- Add library to Arduino IDE via library manager or copy library to your sketch / workspace library folder
+- Add library to Arduino IDE using library manager or copy library to your sketch / workspace library folder
 - Add library includes to your sketch
 
 The sketch should look like
@@ -39,5 +39,5 @@ void loop() {
 
 ## Adding support for other languages
 
-You can define character mappings for other languages. See **LCD_CharMap_RUS.h** for an example.
+You can define character mappings for other languages. See **LCD_CharMap_RUS.h** for an example.<br/>
 It is important to include your new mapping file in main sketch **.ino** file, so Arduino IDE build system can correctly parse PROGMEM macros.
