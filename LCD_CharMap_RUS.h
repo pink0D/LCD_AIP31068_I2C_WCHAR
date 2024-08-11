@@ -2,6 +2,8 @@
 #define __LCD_CHARMAP_H__
 
 // character mapping 
+// each element maps UTF16 code to equavalent latin char or to a custom bitmap for rendering on LCD
+//
 // examples:
 //
 // char with latin equivalent
