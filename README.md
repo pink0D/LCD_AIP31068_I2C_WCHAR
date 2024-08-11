@@ -14,7 +14,7 @@ Currently, only russian character support is included into the library
 - Add library includes to your sketch
 
 The sketch should look like
-```
+```C
 #include <LCD_AIP31068_I2C_WCHAR.h>
 #include <LCD_CharMap_RUS.h>
 
