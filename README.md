@@ -39,5 +39,5 @@ void loop() {
 
 ## Adding support for other languages
 
-You can define character mappings for other languages. See **LCD_CharMap_RUS.h** for an example
+You can define character mappings for other languages. See **LCD_CharMap_RUS.h** for an example.
 It is important to include your new mapping file in main sketch **.ino** file, so Arduino IDE build system can correctly parse PROGMEM macros.
